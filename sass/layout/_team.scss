@@ -24,7 +24,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  background-color: $header-background;
+  background-color: var(--header-background);
 }
 
 .team__name {
@@ -38,7 +38,7 @@
 }
 
 .team__position {
-  color: $secondery-text-color;
+  color: var(--secondery-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;

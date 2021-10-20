@@ -18,9 +18,9 @@
 <body>
     <!-- Шапка сайта -->
     <header class="header">
-        <div class="header__flex">
+        <div class="header__container--flex">
             <nav class="header__nav">
-                <a href="" lang="en" class="logo">
+                <a href="" lang="en" class="logo logo--right">
                     <span class="logo__span">Web</span>Studio
                 </a>
     
@@ -212,69 +212,68 @@
 
     <!-- Подвал -->
     <footer class="footer">
-        <div class="container">
+        <div class="container--flex">
             <div>
                 <a href="" lang="en" class="logo logo--wight-color">
-                <span class="logo__span">Web</span>Studio
-            </a>
-            <address class="address">
-                <ul class="address__list">
-                    <li class="address__item">г. Киев, пр-т Леси Украинки, 26</li>
-                    <li class=" address__item "><a class="address__link" href="">info@example.com</a> </li>
-                    <li class=" address__item "><a class="address__link" href="">+38 099 111 11 11</a> </li>
-                </ul>
+                    <span class="logo__span">Web</span>Studio
+                </a>
+                <address class="address">
+                    <ul class="address__list">
+                        <li class="address__item">г. Киев, пр-т Леси Украинки, 26</li>
+                        <li class="address__item"><a class="address__link" href="">info@example.com</a> </li>
+                        <li class="address__item"><a class="address__link" href="">+38 099 111 11 11</a> </li>
+                    </ul>
     
-            </address>
-
+                </address>
             </div>
-            
+    
+    
             <div class="join">
-                <p class="join-text">Присоединяйтесь</p>
-                <ul class="list">
-                    <li class="social-networks">
-                        <a class="link" href="">
-                            <svg class="icon-social-footer" width="20" height="20" preserveAspectRatio="xMidYMid meet">
+                <p class="join__text">Присоединяйтесь</p>
+                <ul class="social-networks">
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--grey-bgr" href="">
+                            <svg class="social-networks__icon" width="20" height="20" preserveAspectRatio="xMidYMid meet">
                                 <use href="./images/Иконки/symbol-defs.svg#icon-instagram-2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-networks">
-                        <a class="link" href="">
-                            <svg class="icon-social-footer" width="20" height="20" preserveAspectRatio="xMidYMid meet">
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--grey-bgr" href="">
+                            <svg class="social-networks__icon" width="20" height="20" preserveAspectRatio="xMidYMid meet">
                                 <use href="./images/Иконки/symbol-defs.svg#icon-twitter-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-networks">
-                        <a class="link" href="">
-                            <svg class="icon-social-footer" width="20" height="20" preserveAspectRatio="xMidYMid meet">
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--grey-bgr" href="">
+                            <svg class="social-networks__icon" width="20" height="20" preserveAspectRatio="xMidYMid meet">
                                 <use href="./images/Иконки/symbol-defs.svg#icon-facebook-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-networks">
-                        <a class="link" href="">
-                            <svg class="icon-social-footer" width="20" height="20" preserveAspectRatio="xMidYMid meet">
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--grey-bgr" href="">
+                            <svg class="social-networks__icon" width="20" height="20" preserveAspectRatio="xMidYMid meet">
                                 <use href="./images/Иконки/symbol-defs.svg#icon-linkedin-1"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-
             <div class="form-footer">
-                <p class="title-form">Подпишитесь на рассылку</p>
-                <div class="form-container">
+                <p class="form-footer__title">Подпишитесь на рассылку</p>
+                <div class="form-footer__container">
                     <label>
-                        <input type="email" name="email" placeholder="E-mail" class="input-form">
+                        <input type="email" name="email" placeholder="E-mail" class="form-footer__input">
                     </label>
-                    <button type="submit" class="hero-button button-footer">Подписаться
-                        <svg class="icon-send" width="24" height="24" preserveAspectRatio="xMidYMid meet">
+                    <button type="submit" class="button button--with-icon">Подписаться
+                        <svg class="form-footer__icon" width="24" height="24" preserveAspectRatio="xMidYMid meet">
                             <use href="./images/Иконки/symbol-defs.svg#icon-send"></use>
                         </svg>
                     </button>
                 </div>
-            
+    
             </div>
         </div>
     

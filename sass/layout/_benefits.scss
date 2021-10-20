@@ -25,7 +25,7 @@
     background-size: 70px 70px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: $grey-background;
+    background-color: var(--grey-background);
     border-radius: 4px;
     margin-bottom: 30px;
   }
@@ -54,7 +54,7 @@
 }
 
 .benefits__text {
-  color: $secondery-text-color;
+  color: var(--secondery-text-color);
 
   font-size: 14px;
   line-height: 1.71;

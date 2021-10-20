@@ -25,7 +25,7 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background-color: $link-active;
+    background-color: var(--link-active);
   }
 
   &--grey-bgr {
@@ -35,9 +35,9 @@
 }
 
 .social-networks__icon {
-  fill: $icon-color;
+  fill: var(--icon-color);
   .social-networks__link:hover &,
   .social-networks__link:focus & {
-    fill: $text-on-dark-background;
+    fill: var(--text-on-dark-background);
   }
 }
