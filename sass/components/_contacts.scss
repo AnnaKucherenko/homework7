@@ -1,0 +1,35 @@
+.header-contakt {
+  @extend %list;
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contakt__item:nth-child(1) {
+  margin-right: 50px;
+}
+
+.header-contakt__link {
+  @extend %link;
+  display: flex;
+  align-items: center;
+  color: $secondery-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $link-active;
+  }
+}
+
+.header-contakt__icon {
+  fill: #757575;
+  margin-right: 10px;
+
+  .header-contakt__link:hover &,
+  .header-contakt__link:focus & {
+    fill: $link-active;
+  }
+}

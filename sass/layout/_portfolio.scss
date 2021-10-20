@@ -1,0 +1,116 @@
+.choice,
+.projects {
+  display: flex;
+}
+.choice {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.portfolio-button {
+  display: block;
+
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: transparent;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: $primary-text-color;
+  background-color: $button-background;
+
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.choice .item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  color: $text-on-dark-background;
+  background-color: $link-active;
+}
+
+.portfolio-projects {
+  flex-basis: calc(100% / 3-30px);
+
+  margin-left: 30px;
+  margin-top: 30px;
+
+  background-color: $header-background;
+}
+
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.container-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.images-text {
+  position: absolute;
+  top: 294px;
+  right: 0;
+  height: 100%;
+  padding: 63px 24px;
+
+  font-size: 18px;
+  line-height: 1.56;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: $text-on-dark-background;
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.portfolio-link:hover .images-text,
+.portfolio-link:focus .images-text {
+  transform: translateY(-294px);
+}
+
+.projects-card {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px;
+}
+
+.projects-title {
+  margin-bottom: 4px;
+  color: $primary-text-color;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-text {
+  color: $secondery-text-color;
+
+  font-size: 16px;
+  line-height: 1.87;
+}
