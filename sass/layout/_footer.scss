@@ -15,8 +15,7 @@
 
 .address {
   color: var(--text-on-dark-background);
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 14px, 1.71);
   font-style: inherit;
 }
 
@@ -46,10 +45,7 @@
   margin-bottom: 20px;
   color: var(--text-on-dark-background);
   text-transform: uppercase;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  @include font(700, 14px, 1.14);
 }
 
 .form-footer {
@@ -58,9 +54,7 @@
 
 .form-footer__title {
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 1.14);
   text-transform: uppercase;
   color: var(--text-on-dark-background);
 }
@@ -83,8 +77,7 @@
   border-radius: 4px;
 
   &::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
+    @include font(400, 16px, 1.25);
     display: flex;
     align-items: center;
     color: rgba(255, 255, 255, 0.6);
